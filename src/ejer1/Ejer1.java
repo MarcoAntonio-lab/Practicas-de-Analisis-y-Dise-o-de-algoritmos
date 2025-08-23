@@ -12,9 +12,9 @@ public class Ejer1 {
         if (buscar) {
             System.out.println("Elemento encontrado en la lista");
         } else {
-            System.out.println("Elemento no encontrado en la lista");
+            System.out.println("Elemento No encontrado en la lista");
         }
     }
-    }
+ }
     
 
