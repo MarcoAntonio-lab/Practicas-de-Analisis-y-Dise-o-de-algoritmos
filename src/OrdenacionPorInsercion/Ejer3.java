@@ -1,5 +1,5 @@
 
-package ejer3;
+package OrdenacionPorInsercion;
 
 
 public class Ejer3 {
@@ -11,7 +11,7 @@ public class Ejer3 {
             int key = arr[i];
             int j = i - 1;
 
-            // Mueve los elementos que son mayores que key una posición adelante
+            // Mueve los elementos que son mayores que key, a una posicion adelante de su posicion actual
             while (j >= 0 && arr[j] > key) {
                 arr[j + 1] = arr[j];
                 j = j - 1;
@@ -30,7 +30,7 @@ public class Ejer3 {
 
         insertionSort(numeros);
 
-        System.out.println("\nDespués de ordenar:");
+        System.out.println("\nDespues de ordenar:");
         for (int num : numeros) {
             System.out.print(num + " ");
         }

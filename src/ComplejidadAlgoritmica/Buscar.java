@@ -1,5 +1,5 @@
 
-package ejer1;
+package ComplejidadAlgoritmica;
 
 public class Buscar {
      public static boolean buscarElemento (int [] lista, int elemento){

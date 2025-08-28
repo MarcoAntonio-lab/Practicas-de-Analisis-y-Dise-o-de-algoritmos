@@ -1,5 +1,5 @@
 
-package ejer1;
+package ComplejidadAlgoritmica;
 
 
 public class Ejer1 {

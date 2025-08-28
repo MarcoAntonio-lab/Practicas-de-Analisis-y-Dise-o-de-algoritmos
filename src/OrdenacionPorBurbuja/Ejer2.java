@@ -1,9 +1,9 @@
 
-package ejer2;
+package OrdenacionPorBurbuja;
 
 
 public class Ejer2 {
-     public static void burbuja(int [] arr){
+    public static void burbuja(int [] arr){
         int n = arr.length; 
         for (int i = 0; i < n-1; i++){
             for (int j = 0; j < n-i-1; j++){
@@ -14,16 +14,13 @@ public class Ejer2 {
                 }
             }
         }
-    }
+     }
     public static void main(String[] args) {
        // ordenacion por burbuja 
-    int [] numeros = {4, 5, 6, 7, 8}; 
-    burbuja(numeros); 
+    int [] numeros = {4, 6, 5, 7, 8}; 
+    burbuja(numeros);
     for (int num : numeros) {
             System.out.print(num + " ");
         }
-
-}
-
-    
+    } 
 }
