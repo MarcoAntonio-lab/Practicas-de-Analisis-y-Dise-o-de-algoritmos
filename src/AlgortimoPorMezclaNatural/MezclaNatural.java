@@ -18,5 +18,14 @@ public class MezclaNatural {
                 while (i < arr.length - 1 && arr[i] <= arr[i + 1]) {
                     i++;
                 }
-    
+            int end = i;
+                int[] run = new int[end - start + 1];
+                for (int k = 0; k < run.length; k++) {
+                    run[k] = arr[start + k];
+                }
+                runs.add(run);
+                i++;
+                }
+        }
+   } 
 }
