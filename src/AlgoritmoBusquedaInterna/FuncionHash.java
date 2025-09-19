@@ -23,7 +23,7 @@ public class FuncionHash {
 
         // Insertamos los valores
         for (String string : strings) {
-            int indice = funcionHash(string, tamanioTabla); //se asumen los valores
+            int indice = funcionHash(string, tamanioTabla); //se asumen los valores creados
             tablaHash[indice] = string;
         }
 
