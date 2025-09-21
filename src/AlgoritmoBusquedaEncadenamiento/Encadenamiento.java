@@ -1,6 +1,6 @@
 
 package AlgoritmoBusquedaEncadenamiento;
-import java.util.Scanner;
+import java.util.LinkedList;
 
 public class Encadenamiento {
     private int tamano;
@@ -18,12 +18,19 @@ public class Encadenamiento {
     }
 
     // Constructor
-    public TablaHash(int tamano) {
+    public Encadenamiento(int tamano) {
         this.tamano = tamano;
         tabla = new LinkedList[tamano];
         for (int i = 0; i < tamano; i++) {
             tabla[i] = new LinkedList<>();
         }
+    }
+    private int funcionHash(String clave) {
+        int suma = 0;
+        for (char c : clave.toCharArray()) {
+            suma += (int) c; // valor ASCII
+        }
+        return suma % tamano;
     }
 
 }
