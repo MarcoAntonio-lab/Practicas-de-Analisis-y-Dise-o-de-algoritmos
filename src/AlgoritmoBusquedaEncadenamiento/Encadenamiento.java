@@ -32,5 +32,9 @@ public class Encadenamiento {
         }
         return suma % tamano;
     }
-
+    // Insertar par clave-valor
+    public void insertar(String clave, String valor) {
+        int indice = funcionHash(clave);
+        tabla[indice].add(new Par(clave, valor));
+    }
 }
