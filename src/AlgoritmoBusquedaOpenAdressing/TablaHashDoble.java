@@ -16,7 +16,6 @@ public class TablaHashDoble {
             this.valor = valor;
         }
     }
-
     public TablaHashDoble(int tamano) {
         this.tamano = tamano;
         this.tabla = new Entrada[tamano];
@@ -68,7 +67,7 @@ public class TablaHashDoble {
     public void mostrarTabla() {
         for (int i = 0; i < tamano; i++) {
             if (tabla[i] != null) {
-                System.out.println("Indice " + i + " : " + tabla[i].clave + " → " + tabla[i].valor);
+                System.out.println("Indice " + i + " : " + tabla[i].clave + " -> " + tabla[i].valor);
             } else {
                 System.out.println("Indice " + i + ": vacio");
             }        
