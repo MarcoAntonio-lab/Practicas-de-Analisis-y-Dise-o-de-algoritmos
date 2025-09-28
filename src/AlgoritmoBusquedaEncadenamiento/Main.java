@@ -13,6 +13,7 @@ public class Main {
 
         // Colisionará con "gato" si usan el mismo índice
         tablaHash.insertar("tigre", 30);
+        tablaHash.insertar("Gallo", 50);
 
         // Imprimir la tabla hash
         tablaHash.imprimir();
