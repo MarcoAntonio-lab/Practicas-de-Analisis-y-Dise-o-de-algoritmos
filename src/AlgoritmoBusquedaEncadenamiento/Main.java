@@ -10,10 +10,11 @@ public class Main {
         // Insertar valores, incluyendo colisiones
         tablaHash.insertar("gato", 10);
         tablaHash.insertar("perro", 20);
+        tablaHash.insertar("Gallo", 50);
 
         // Colisionará con "gato" si usan el mismo índice
         tablaHash.insertar("tigre", 30);
-        tablaHash.insertar("Gallo", 50);
+        
 
         // Imprimir la tabla hash
         tablaHash.imprimir();
