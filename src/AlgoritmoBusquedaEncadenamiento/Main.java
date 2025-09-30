@@ -11,6 +11,7 @@ public class Main {
         tablaHash.insertar("gato", 10);
         tablaHash.insertar("perro", 20);
         tablaHash.insertar("Gallo", 50);
+        tablaHash.insertar("Gallo", 80);
 
         // Colisionará con "gato" si usan el mismo índice
         tablaHash.insertar("tigre", 30);
