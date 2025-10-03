@@ -13,14 +13,14 @@ public class BusquedaLineal {
     }
 
 public static void main(String[] args) {
-        int[] numeros = {10, 25, 30, 5, 18};
+        int[] numeros = {10, 25, 30, 5, 18, 40};
 
         int resultado = seqSearch(numeros, 5);
 
         if (resultado != -1) {
             System.out.println("Elemento encontrado en la posición: " + resultado);
         } else {
-            System.out.println("Elemento no encontrado.");
+            System.out.println("Elemento no encontrado."); 
         }    
     }
 }
