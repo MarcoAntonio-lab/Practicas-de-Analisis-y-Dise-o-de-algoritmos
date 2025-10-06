@@ -20,7 +20,7 @@ public static void main(String[] args) {
         if (resultado != -1) {
             System.out.println("Elemento encontrado en la posición: " + resultado);
         } else {
-            System.out.println("Elemento no encontrado."); 
+            System.out.println("Elemento no encontrado en la lista."); 
         }    
     }
 }
