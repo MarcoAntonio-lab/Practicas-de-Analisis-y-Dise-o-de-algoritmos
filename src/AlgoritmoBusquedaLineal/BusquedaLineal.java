@@ -3,9 +3,9 @@ package AlgoritmoBusquedaLineal;
 
 
 public class BusquedaLineal {
-    public static int seqSearch(int[] list, int target) {
+    public static int seqSearch(int[] list, int destino) {
         for (int j = 0; j < list.length; j++){
-            if (list[j] == target) {             // compara si el elemento actual es igual al que buscamos
+            if (list[j] == destino) {             // compara si el elemento actual es igual al que buscamos
             return j;   // si lo encuentra, devuelve la posición (índice) donde está
             }
         }

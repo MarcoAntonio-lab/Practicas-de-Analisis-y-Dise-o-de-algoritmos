@@ -18,11 +18,11 @@ public class FuncionHash {
         String[] tablaHash = new String[7];
 
         // Valores a insertar
-        String[] strings = {"ab", "cd", "efg"};
+        String[] claves = {"ab", "cd", "efg"};
         int tamanioTabla = tablaHash.length;
 
         // Insertamos los valores
-        for (String string : strings) {
+        for (String string : claves) {
             int indice = funcionHash(string, tamanioTabla); //se asumen los valores creados anteriormente
             tablaHash[indice] = string;
         }
