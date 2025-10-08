@@ -28,7 +28,7 @@ public class BusquedaSecuencialMedianteBloques {
    public static void main(String args[]) {
       int i, n, key, index;
       int arr[] = {0, 6, 12, 14, 19, 22, 48, 66, 79, 88, 104, 126};
-	  System.out.println("Los elementos de la matriz son: ");
+	  System.out.println("Los elementos de la matriz son : ");
 	  for(int j = 0; j<arr.length; j++){
 	     System.out.print(arr[j] + " ");
 	  }
